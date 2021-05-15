@@ -3,6 +3,7 @@
 Fetches matches of users from chess.com and lichess.com
 
 usage:
+
 java -jar chess-archiver.jar <lichess/chess.com> <username> <path of directory to write all png files>
   
 
