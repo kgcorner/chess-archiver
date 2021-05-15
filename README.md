@@ -4,7 +4,14 @@ Fetches matches of users from chess.com and lichess.com
 
 usage:
 
-java -jar chess-archiver.jar <lichess/chess.com> <username> <path of directory to write all png files>
+java -jar chess-archiver.jar [source] [username-on-source] [outputdirectory]
+
+
+source: Currently lichess and chess.com is supported. Use lichess for Lichess.com and chess.com for Chess.com
+
+username-on-source: username on source of user whoes game is to be downloaded
+
+outputdirectory : full path of the directory where png files will be written
   
 
 It writes single png file for each match
