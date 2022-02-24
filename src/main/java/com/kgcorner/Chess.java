@@ -40,6 +40,7 @@ public class Chess {
         String playerName = args[1];
         String outputDir = args[2];
         RawResponse rawResponse = null;
+        System.out.println("Looking for games of " + playerName +" from " + source);
         if(source.toLowerCase().equals("chess.com")) {
             rawResponse = new ChessCom().fetchGames(playerName);
         } else {
@@ -50,8 +51,10 @@ public class Chess {
                 System.exit(-1);
             }
         }
+        System.out.println("Downloaded all games");
         if(rawResponse != null && !rawResponse.getGames().isEmpty()) {
             writeAllGames(rawResponse, outputDir);
+            System.out.println("Total Games : " + rawResponse.getGames().size());
         }
     }
     private static String chessComProfileUrl= "https://api.chess.com/pub/player/%s/games/archives";
