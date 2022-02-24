@@ -6,7 +6,7 @@
 
     <groupId>com.kgcorner.chess</groupId>
     <artifactId>chess-archiver</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
