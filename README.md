@@ -20,4 +20,4 @@ Contribution required:
 1. To Write unit test cases
 2. Add new Sources
 
-To Download 1.0 verson click [here](http://kgcorner.com/chess-archiver.zip)
+To Download 1.0 verson click [here](https://scriptchess.com/chess-archiver.zip)
